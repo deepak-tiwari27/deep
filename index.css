@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    margin-left:10%;
+}
+.card{
+    border-radius:10px;
+  position: absolute;
+    top:10%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    padding:10px;
+    background-color: #273549;
+    color:white;
+    max-width:450px;
+}
+#color{
+    color:lightgreen;
+}
+.btn{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    padding:8px;
+    border:2px solid none;
+    border-radius:5px;
+    
+}
+hr{
+    margin-top:15px;
+    margin-bottom:20px;
+    
+    background-color: blue;
+}
+.passwords{
+    display:flex;
+    justify-content:space-around;
+    
+    
+}
+.password{
+    border-radius:5px;
+    padding:8px;
+    background-color:aquamarine;
+    
+}
+input[type="text"]{
+    color:black;
+}
